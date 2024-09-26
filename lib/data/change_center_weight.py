@@ -7,7 +7,7 @@ import numpy as np
 
 
 
-_center_weight = np.load('/kaggle/working/MoveNet_Fine-tune/lib/data/center_weight_origin.npy')
+_center_weight = np.load('center_weight_origin.npy')
 _center_weight = np.reshape(_center_weight,(48,48))
 print(_center_weight[0])
 
